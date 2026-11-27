@@ -3,158 +3,249 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="description" content="Portfolio of Supreme Karki: web projects, notes and contact details." />
-    <title>Supreme Karki | Portfolio</title>
+    <meta name="description" content="Supreme Karki: QA Engineer from Nepal. Manual and automation testing, API testing and bug tracking." />
+    <title>Supreme Karki | QA Engineer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet" />
     <link rel="stylesheet" href="style.css" />
-    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   </head>
 
   <body>
-    <nav>
+    <nav class="nav">
+      <a href="#top" class="brand">Supreme<span>.</span></a>
+      <button class="toggle" aria-label="Open menu" aria-expanded="false">&#9776;</button>
       <ul class="nav-links">
         <li><a href="#about">About</a></li>
-        <li><a href="#blog">Blog</a></li>
-        <li><a href="#works">Works</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#lifestyle">Lifestyle</a></li>
         <li><a href="#contact">Contact</a></li>
       </ul>
-      <div class="toggle">
-        <a href="#" aria-label="Open menu">
-          <ion-icon name="menu-outline"></ion-icon>
-        </a>
-      </div>
     </nav>
 
-    <header id="about">
-      <div class="container">
-        <div class="section1">
-          <div class="head-img">
-            <img src="img/1.jpg" alt="Supreme Karki" />
+    <!-- Hero -->
+    <header class="hero" id="top">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <p class="eyebrow">Hello, I'm</p>
+          <h1>Supreme Karki</h1>
+          <h2>QA Engineer</h2>
+          <p class="lead">
+            I make sure software works the way people expect it to. I find bugs
+            before users do, write clear test cases, and help teams ship
+            products they can trust.
+          </p>
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-primary">Hire Me</a>
+            <a href="#projects" class="btn btn-outline">View My Work</a>
           </div>
-          <div class="img-article">
-            <h1>Hi, I am Supreme Karki</h1>
-            <p class="about">
-              I'm a web developer from Nepal. I build clean, responsive
-              websites with HTML, CSS and JavaScript, and I enjoy turning
-              designs into pages that work well on every screen. This site
-              collects my projects and the things I'm learning.
-            </p>
-            <a href="#contact" class="down"><button>Contact Me</button></a>
-          </div>
+          <ul class="hero-facts">
+            <li><strong>📍</strong> Nepal</li>
+            <li><strong>💼</strong> Open to QA roles</li>
+          </ul>
+        </div>
+        <div class="hero-img">
+          <img src="img/profile.jpg" alt="Supreme Karki" />
         </div>
       </div>
     </header>
 
-    <section class="section2" id="blog">
+    <!-- About -->
+    <section class="section" id="about">
       <div class="container">
-        <div class="section-p">
-          <p class="r-p">Recent posts</p>
-        </div>
-        <div class="recent-posts">
-          <div class="post-item">
-            <h1>Building my first portfolio</h1>
-            <p>2026 | HTML | CSS</p>
-            <p class="post-article">
-              How I planned, built and launched this site: a responsive layout
-              with Flexbox, a mobile menu, and free hosting on my own
-              .com.np domain.
-            </p>
+        <h3 class="section-title">About Me</h3>
+        <div class="about-grid">
+          <img src="img/about.jpg" alt="Supreme Karki" class="about-img" />
+          <div class="about-text">
+          <p>
+            I'm a Quality Assurance Engineer who enjoys breaking things so that
+            customers never have to. I work across the full testing cycle:
+            reading requirements, planning tests, writing test cases, running
+            manual and automated tests, and reporting bugs with clear steps to
+            reproduce.
+          </p>
+          <p>
+            I care about the details: edge cases, usability and the small
+            things that make a product feel reliable. I work closely with
+            developers and product teams in Agile sprints, and I'm always
+            learning new tools to test faster and smarter.
+          </p>
           </div>
-          <div class="post-item">
-            <h1>Get started with Flexbox</h1>
-            <p>2026 | CSS</p>
-            <p class="post-article">
-              Flexbox is a CSS layout model for arranging items in a row or a
-              column. It makes responsive layouts and components much easier
-              to build. Here is a basic guide to getting started.
-            </p>
+        </div>
+        <div class="stats">
+          <div class="stat"><span>Manual</span>Functional, regression &amp; UI testing</div>
+          <div class="stat"><span>Automation</span>Selenium &amp; Cypress scripts</div>
+          <div class="stat"><span>API</span>Testing with Postman</div>
+          <div class="stat"><span>Agile</span>Sprint-based teamwork</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section class="section alt" id="skills">
+      <div class="container">
+        <h3 class="section-title">Skills &amp; Tools</h3>
+        <div class="skills-grid">
+          <div class="card">
+            <h4>🧪 Testing</h4>
+            <ul class="tags">
+              <li>Manual Testing</li><li>Functional Testing</li><li>Regression Testing</li>
+              <li>Smoke &amp; Sanity</li><li>UI / UX Testing</li><li>Cross-browser Testing</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h4>⚙️ Automation &amp; API</h4>
+            <ul class="tags">
+              <li>Selenium</li><li>Cypress</li><li>Postman</li>
+              <li>REST APIs</li><li>JavaScript</li><li>SQL</li>
+            </ul>
+          </div>
+          <div class="card">
+            <h4>📋 Process &amp; Tools</h4>
+            <ul class="tags">
+              <li>Test Plans</li><li>Test Cases</li><li>Bug Reporting</li>
+              <li>Jira</li><li>Git &amp; GitHub</li><li>Agile / Scrum</li>
+            </ul>
           </div>
         </div>
       </div>
     </section>
 
-    <section class="section3" id="works">
+    <!-- Experience -->
+    <section class="section" id="experience">
       <div class="container">
-        <div class="c-p">
-          <p>Featured works</p>
-        </div>
-
-        <div class="f-w-item">
-          <div class="f-w-img"><img src="img/4.gif" alt="CSS Grid and Flexbox demo" /></div>
-          <div class="f-w-text">
-            <h1><a href="#works">CSS Grid vs Flexbox</a></h1>
-            <div class="f-w-text-p">
-              <p><span>2026</span></p>
-              <p>CSS | Responsive Design</p>
-            </div>
-            <p class="f-w-article">
-              Flexbox was designed for layout in one dimension, either a row
-              or a column. Grid was designed for two-dimensional layout, rows
-              and columns at the same time. This project compares the two.
-            </p>
+        <h3 class="section-title">Experience</h3>
+        <div class="timeline">
+          <div class="tl-item">
+            <span class="tl-date">Present</span>
+            <h4>QA Engineer</h4>
+            <p class="tl-org">Company Name · Nepal</p>
+            <ul>
+              <li>Write and run test cases for web applications in every sprint.</li>
+              <li>Report, track and verify bugs in Jira with clear reproduction steps.</li>
+              <li>Test REST APIs with Postman and check data with SQL.</li>
+              <li>Run regression tests before each release.</li>
+            </ul>
+          </div>
+          <div class="tl-item">
+            <span class="tl-date">Education</span>
+            <h4>Bachelor's Degree</h4>
+            <p class="tl-org">College Name · Nepal</p>
+            <ul>
+              <li>Focus on software development, testing and databases.</li>
+            </ul>
           </div>
         </div>
-        <hr />
-
-        <div class="f-w-item">
-          <div class="f-w-img"><img src="img/2.png" alt="Flexbox layout example" /></div>
-          <div class="f-w-text">
-            <h1><a href="#works">Flexbox Layouts</a></h1>
-            <div class="f-w-text-p">
-              <p><span>2026</span></p>
-              <p>CSS | Flex</p>
-            </div>
-            <p class="f-w-article">
-              A set of responsive page components built with Flexbox:
-              navigation bars, card rows and centred hero sections.
-            </p>
-          </div>
-        </div>
-        <hr />
-
-        <div class="f-w-item">
-          <div class="f-w-img"><img src="img/3-gif.gif" alt="Responsive design demo" /></div>
-          <div class="f-w-text">
-            <h1><a href="#works">Responsive Web Design</a></h1>
-            <div class="f-w-text-p">
-              <p><span>2026</span></p>
-              <p>CSS | Responsive Design</p>
-            </div>
-            <p class="f-w-article">
-              Web pages that look good on every device, adjusting
-              automatically to different screen sizes and viewports.
-            </p>
-          </div>
-        </div>
-        <hr />
       </div>
     </section>
 
-    <footer id="contact">
-      <div class="container contact">
-        <h2>Get in touch</h2>
-        <p>Have a project or question? I'd be happy to hear from you.</p>
-        <p class="contact-links">
-          <a href="mailto:karkisupreme123@gmail.com">karkisupreme123@gmail.com</a>
-          <a href="https://github.com/Supremekarki57" target="_blank" rel="noopener">GitHub</a>
+    <!-- Projects -->
+    <section class="section alt" id="projects">
+      <div class="container">
+        <h3 class="section-title">Featured Work</h3>
+        <div class="projects-grid">
+          <article class="card project">
+            <span class="badge">Manual Testing</span>
+            <h4>E-commerce Website Testing</h4>
+            <p>
+              Planned and ran end-to-end tests for sign-up, cart, checkout and
+              payment flows. Wrote test cases and logged bugs with screenshots
+              and steps to reproduce.
+            </p>
+            <p class="stack">Test Cases · Jira · Cross-browser</p>
+          </article>
+          <article class="card project">
+            <span class="badge">Automation</span>
+            <h4>Login &amp; Form Automation</h4>
+            <p>
+              Automated the login, registration and form-validation tests so
+              they run in minutes instead of hours on every build.
+            </p>
+            <p class="stack">Selenium · Cypress · JavaScript</p>
+          </article>
+          <article class="card project">
+            <span class="badge">API Testing</span>
+            <h4>REST API Test Collection</h4>
+            <p>
+              Built a Postman collection covering status codes, response data,
+              error handling and authentication for a REST API.
+            </p>
+            <p class="stack">Postman · REST · JSON</p>
+          </article>
+          <article class="card project">
+            <span class="badge">Web</span>
+            <h4>This Portfolio</h4>
+            <p>
+              Designed and built this responsive site with HTML and CSS,
+              hosted for free on Netlify with my own .com.np domain.
+            </p>
+            <p class="stack">HTML · CSS · Netlify · Cloudflare</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Lifestyle -->
+    <section class="section" id="lifestyle">
+      <div class="container">
+        <h3 class="section-title">Life Beyond Testing</h3>
+        <p class="section-intro">
+          When I'm away from the screen, this is what keeps me curious and
+          energised.
         </p>
+        <div class="gallery">
+          <figure>
+            <img src="img/lifestyle-clouds.jpg" alt="Supreme standing above the clouds in the hills" />
+            <figcaption>Above the clouds ☁️</figcaption>
+          </figure>
+          <figure>
+            <img src="img/lifestyle-hike.jpg" alt="Supreme resting on a rock during a hike" />
+            <figcaption>Weekend hikes 🌲</figcaption>
+          </figure>
+        </div>
+        <div class="life-grid">
+          <div class="life-card"><span>🏔️</span><h4>Hiking &amp; Travel</h4><p>Exploring the hills and trails of Nepal and discovering new places.</p></div>
+          <div class="life-card"><span>⚽</span><h4>Sports &amp; Fitness</h4><p>Playing football and staying active to keep a clear, focused mind.</p></div>
+          <div class="life-card"><span>📚</span><h4>Learning</h4><p>Reading tech blogs and taking courses on testing and automation.</p></div>
+          <div class="life-card"><span>🎵</span><h4>Music</h4><p>Listening to music to relax and recharge after a long day.</p></div>
+        </div>
+        <blockquote class="quote">
+          "Quality is not an act, it is a habit."
+          <cite>Aristotle</cite>
+        </blockquote>
       </div>
-      <p>&copy; <span id="year">2026</span> Supreme Karki. All rights reserved.</p>
-      <p class="credit">Design based on a template by Taleh Rzayev.</p>
+    </section>
+
+    <!-- Contact -->
+    <footer class="section contact" id="contact">
+      <div class="container">
+        <h3 class="section-title">Let's Work Together</h3>
+        <p class="section-intro">
+          Looking for a QA engineer, or have a question? I'd love to hear from you.
+        </p>
+        <div class="contact-links">
+          <a href="mailto:karkisupreme123@gmail.com" class="btn btn-primary">✉️ karkisupreme123@gmail.com</a>
+          <a href="https://github.com/Supremekarki57" target="_blank" rel="noopener" class="btn btn-outline">GitHub</a>
+        </div>
+        <p class="copy">&copy; <span id="year">2026</span> Supreme Karki · supremekarki.com.np</p>
+      </div>
     </footer>
 
     <script>
       document.getElementById("year").textContent = new Date().getFullYear();
-      const toggle = document.querySelector(".toggle a");
+      const toggle = document.querySelector(".toggle");
       const links = document.querySelector(".nav-links");
-      toggle.addEventListener("click", (e) => {
-        e.preventDefault();
-        const open = links.classList.toggle("active");
-        toggle.innerHTML = `<ion-icon name="${open ? "close-outline" : "menu-outline"}"></ion-icon>`;
+      toggle.addEventListener("click", () => {
+        const open = links.classList.toggle("open");
+        toggle.setAttribute("aria-expanded", open);
+        toggle.innerHTML = open ? "&#10005;" : "&#9776;";
       });
       links.addEventListener("click", (e) => {
         if (e.target.tagName === "A") {
-          links.classList.remove("active");
-          toggle.innerHTML = '<ion-icon name="menu-outline"></ion-icon>';
+          links.classList.remove("open");
+          toggle.setAttribute("aria-expanded", false);
+          toggle.innerHTML = "&#9776;";
         }
       });
     </script>

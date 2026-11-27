@@ -1,16 +1,13 @@
-# Responsive_Portfolio_Project
-My first portfolio website project . Developed with html css and a little js was used
+# Supreme Karki · QA Engineer Portfolio
 
-## Online Demo
+Personal portfolio website, live at **https://supremekarki.com.np**.
 
-https://responsive-portfolio-1.netlify.app/
+Built with plain HTML and CSS. Hosted free on Netlify (deploys automatically from this repo's `main` branch), with DNS on Cloudflare.
 
-## ScreenShoots
-<img src="https://user-images.githubusercontent.com/70813725/156333134-d0d1ed25-c48b-47e5-9427-1220416a68ba.png" width="600px"> 
+## Run locally
 
-## Main Design
+```
+node serve.js
+```
 
-https://www.figma.com/file/zqKAFfSruLAletFeO3eMDZ/Portfolio-UI---Web-%26-Mobile-(Community)?node-id=0%3A1
-"# portfolio" 
-"# portfolio" 
-"# portfolio" 
+Then open http://localhost:8080.
