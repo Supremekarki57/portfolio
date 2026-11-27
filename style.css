@@ -207,6 +207,34 @@ footer p {
   text-align: center;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+.contact {
+  text-align: center;
+}
+.contact h2 {
+  font-size: 28px;
+}
+.contact-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 25px;
+}
+.contact-links a {
+  color: #ff6464;
+  font-weight: 600;
+}
+.contact-links a:hover {
+  text-decoration: underline;
+}
+footer .credit {
+  margin-top: 10px;
+  font-size: 13px;
+  color: #8695a4;
+}
+
 .social-buttons img:hover {
   animation: shake 0.5s;
   animation-iteration-count: infinite;

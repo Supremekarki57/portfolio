@@ -2,194 +2,160 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    
-
-    <title>Responsive Portfolio website | Supreme Karki</title>
+    <meta name="description" content="Portfolio of Supreme Karki: web projects, notes and contact details." />
+    <title>Supreme Karki | Portfolio</title>
     <link rel="stylesheet" href="style.css" />
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
   </head>
 
   <body>
     <nav>
       <ul class="nav-links">
-        <li><a href="#">Works</a></li>
-        <li><a href="#">Blog</a></li>
-        <li><a href="#">Contact</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#blog">Blog</a></li>
+        <li><a href="#works">Works</a></li>
+        <li><a href="#contact">Contact</a></li>
       </ul>
       <div class="toggle">
-        <a href="#">
+        <a href="#" aria-label="Open menu">
           <ion-icon name="menu-outline"></ion-icon>
         </a>
       </div>
     </nav>
-    <header>
+
+    <header id="about">
       <div class="container">
         <div class="section1">
           <div class="head-img">
-            <img
-              src="/img/1.jpg"
-              alt=""
-            />
+            <img src="img/1.jpg" alt="Supreme Karki" />
           </div>
           <div class="img-article">
-            <h1>Hi, I am Supreme karki</h1>
+            <h1>Hi, I am Supreme Karki</h1>
             <p class="about">
-             
+              I'm a web developer from Nepal. I build clean, responsive
+              websites with HTML, CSS and JavaScript, and I enjoy turning
+              designs into pages that work well on every screen. This site
+              collects my projects and the things I'm learning.
             </p>
-            <a href="#" class="down"><button>Download Resume</button></a>
+            <a href="#contact" class="down"><button>Contact Me</button></a>
           </div>
         </div>
       </div>
     </header>
 
-    <section class="section2">
+    <section class="section2" id="blog">
       <div class="container">
         <div class="section-p">
           <p class="r-p">Recent posts</p>
-          <p class="v-p"><a href="">View All</a></p>
         </div>
         <div class="recent-posts">
           <div class="post-item">
-            <h1>Making a design system from scratch</h1>
-            <p>12 Feb 2022 Design | Pattern</p>
+            <h1>Building my first portfolio</h1>
+            <p>2026 | HTML | CSS</p>
             <p class="post-article">
-              Amet minim mollit non deserunt ullamco est sit aliqua dolor do
-              amet sint. Velit officia consequat duis enim velit mollit.
-              Exercitation veniam consequat sunt nostrud amet.
+              How I planned, built and launched this site: a responsive layout
+              with Flexbox, a mobile menu, and free hosting on my own
+              .com.np domain.
             </p>
           </div>
           <div class="post-item">
-            <h1>Get started with Flexbox.</h1>
-            <p>13 Feb 2022 Design | Css</p>
+            <h1>Get started with Flexbox</h1>
+            <p>2026 | CSS</p>
             <p class="post-article">
-              Flexbox is a layout in CSS3. Flexbox is used to make responsive
-                layouts and components on a webpage. Using is a good choice to
-                use in CSS so you can design the page responsively. Here is a
-                basic guide to getting starting with flexbox.
+              Flexbox is a CSS layout model for arranging items in a row or a
+              column. It makes responsive layouts and components much easier
+              to build. Here is a basic guide to getting started.
             </p>
           </div>
         </div>
       </div>
     </section>
-    <section class="section3">
+
+    <section class="section3" id="works">
       <div class="container">
         <div class="c-p">
           <p>Featured works</p>
         </div>
+
         <div class="f-w-item">
-          <div class="f-w-img">
-            <img src="/img/4.gif" alt="" />
-          </div>
+          <div class="f-w-img"><img src="img/4.gif" alt="CSS Grid and Flexbox demo" /></div>
           <div class="f-w-text">
-            <h1><a href="#">
-              CSS Grid vs Flexbox</h1></a>
+            <h1><a href="#works">CSS Grid vs Flexbox</a></h1>
             <div class="f-w-text-p">
-              <p><span>2022</span></p>
-              <p>Css | Responsive Design</p>
+              <p><span>2026</span></p>
+              <p>CSS | Responsive Design</p>
             </div>
             <p class="f-w-article">
-              Grid and flexbox. The basic difference between CSS Grid Layout and
-              CSS Flexbox Layout is that flexbox was designed for layout in one
-              dimension - either a row or a column. Grid was designed for
-              two-dimensional layout - rows, and columns at the same time.
+              Flexbox was designed for layout in one dimension, either a row
+              or a column. Grid was designed for two-dimensional layout, rows
+              and columns at the same time. This project compares the two.
             </p>
           </div>
         </div>
         <hr />
+
         <div class="f-w-item">
-          <div class="f-w-img">
-            <img src="/img/1.jpg" alt="" />
-          </div>
+          <div class="f-w-img"><img src="img/2.png" alt="Flexbox layout example" /></div>
           <div class="f-w-text">
-            <h1><a href="#">
-              What is HTML?</h1></a>
+            <h1><a href="#works">Flexbox Layouts</a></h1>
             <div class="f-w-text-p">
-              <p><span>2022</span></p>
-              <p>Html</p>
+              <p><span>2026</span></p>
+              <p>CSS | Flex</p>
             </div>
             <p class="f-w-article">
-              HTML stands for Hyper Text Markup Language HTML is the standard
-              markup language for Web pages HTML elements are the building
-              blocks of HTML pages HTML elements are represented by <> tags
+              A set of responsive page components built with Flexbox:
+              navigation bars, card rows and centred hero sections.
             </p>
           </div>
         </div>
-        <div class="f-w">
-          <hr />
-          <div class="f-w-item">
-            <div class="f-w-img">
-              <img src="/img/2.png" alt="" />
+        <hr />
+
+        <div class="f-w-item">
+          <div class="f-w-img"><img src="img/3-gif.gif" alt="Responsive design demo" /></div>
+          <div class="f-w-text">
+            <h1><a href="#works">Responsive Web Design</a></h1>
+            <div class="f-w-text-p">
+              <p><span>2026</span></p>
+              <p>CSS | Responsive Design</p>
             </div>
-            <div class="f-w-text">
-              <h1> <a href="#">
-                Get started with Flexbox.</h1></a>
-              <div class="f-w-text-p">
-                <p><span>2022</span></p>
-                <p>Css | Flex</p>
-              </div>
-              <p class="f-w-article">
-                Flexbox is a layout in CSS3. Flexbox is used to make responsive
-                layouts and components on a webpage. Using is a good choice to
-                use in CSS so you can design the page responsively. Here is a
-                basic guide to getting starting with flexbox.
-              </p>
-            </div>
+            <p class="f-w-article">
+              Web pages that look good on every device, adjusting
+              automatically to different screen sizes and viewports.
+            </p>
           </div>
-          <hr />
-          <div class="f-w-item">
-            <div class="f-w-img">
-              <img src="/img/3-gif.gif" alt="" />
-            </div>
-            <div class="f-w-text">
-              <h1><a href="#">
-                Responsive Web Design</h1>
-              </a>
-              <div class="f-w-text-p">
-                <p><span>2021</span></p>
-                <p>Css | Responsive Design</p>
-              </div>
-              <p class="f-w-article">
-                Responsive web design is about creating web pages that look good on all devices!
-                A responsive web design will automatically adjust for different screen sizes and viewports.
-              </p>
-            </div>
-          </div>
-          <hr />
         </div>
+        <hr />
       </div>
     </section>
-    <footer>
-      <div class="social-buttons">
-        <a href="#"><img src="/img/fb.svg" alt="" />
-        </a>
-        <a href="#"><img src="/img/insta.svg" alt="" />
-        </a>
-        <a href="#"><img src="/img/twitter.svg" alt="" />
-        </a>
-        <a href="#"><img src="/img/linkedin.svg" alt="" />
-        </a>
+
+    <footer id="contact">
+      <div class="container contact">
+        <h2>Get in touch</h2>
+        <p>Have a project or question? I'd be happy to hear from you.</p>
+        <p class="contact-links">
+          <a href="mailto:supremekarki@gmail.com">supremekarki@gmail.com</a>
+          <a href="https://github.com/Supremekarki57" target="_blank" rel="noopener">GitHub</a>
+        </p>
       </div>
-      <p>Copyright © 2022 All rights reserved <br><br> <b> ©Taleh Rzayev </b></p>
+      <p>&copy; <span id="year">2026</span> Supreme Karki. All rights reserved.</p>
+      <p class="credit">Design based on a template by Taleh Rzayev.</p>
     </footer>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
     <script>
-      $(function () {
-        $(".toggle").on("click", function () {
-          if ($(".nav-links").hasClass("active")) {
-            $(".nav-links").removeClass("active");
-            $(this).find("a").html('<ion-icon name="menu-outline"></ion-icon>');
-          } else {
-            $(".nav-links").addClass("active");
-            $(this)
-              .find("a")
-              .html('<ion-icon name="close-outline"></ion-icon>');
-          }
-        });
+      document.getElementById("year").textContent = new Date().getFullYear();
+      const toggle = document.querySelector(".toggle a");
+      const links = document.querySelector(".nav-links");
+      toggle.addEventListener("click", (e) => {
+        e.preventDefault();
+        const open = links.classList.toggle("active");
+        toggle.innerHTML = `<ion-icon name="${open ? "close-outline" : "menu-outline"}"></ion-icon>`;
+      });
+      links.addEventListener("click", (e) => {
+        if (e.target.tagName === "A") {
+          links.classList.remove("active");
+          toggle.innerHTML = '<ion-icon name="menu-outline"></ion-icon>';
+        }
       });
     </script>
   </body>
